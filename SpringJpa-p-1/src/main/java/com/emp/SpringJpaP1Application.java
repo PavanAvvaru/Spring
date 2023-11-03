@@ -23,11 +23,11 @@ public class SpringJpaP1Application implements  CommandLineRunner{
 		// TODO Auto-generated method stub
 		Company c1=new Company();
 		crp.save(c1);
-		/*c1.setName("Accenture");
+		c1.setName("Accenture");
 		c1.setCity("hyderabad");
 		
 		crp.save(c1);
-		
+		/*
 		Company c2=new Company();
 		c2.setName("infosys");
 		c2.setCity("banglore");
